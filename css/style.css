@@ -5,3 +5,15 @@
 body {
   margin: 0;
 }
+
+#realisations {
+  padding-bottom: 1rem;
+}
+
+.page-section {
+  padding: 5rem 0;
+}
+
+.card {
+  margin: 10px 10px;
+}
