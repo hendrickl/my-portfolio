@@ -13,3 +13,8 @@ body {
 .card {
   margin: 10px 10px;
 }
+
+.card-body a:hover {
+  background-color: white;
+  color: black;
+}
