@@ -25,6 +25,10 @@ body {
   color: black;
 }
 
+div.card-img-top {
+  padding: 25px;
+}
+
 #competences p:hover,
 #competences i:hover {
   color: #ffc107;
