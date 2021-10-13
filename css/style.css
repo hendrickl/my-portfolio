@@ -25,6 +25,11 @@ body {
   color: black;
 }
 
+#competences p:hover,
+#competences i:hover {
+  color: #ffc107;
+}
+
 footer {
   border-top: solid #ffc107;
 }
