@@ -44,6 +44,16 @@ div.card-img-top {
   padding: 25px;
 }
 
+section#apropos {
+  border-top: solid #ffc107;
+}
+
+#apropos i:hover,
+#apropos a.btn-warning:hover {
+  background-color: black;
+  color: #ffc107;
+}
+
 #competences p:hover,
 #competences i:hover {
   color: #ffc107;
