@@ -1,5 +1,3 @@
-/* yellow : #ffc107 */
-
 * {
   box-sizing: border-box;
 }
@@ -68,10 +66,69 @@ section#apropos {
   color: #ffc107;
 }
 
-#competences p:hover,
-#competences i:hover {
-  color: #ffc107;
+/* :hover effect - competences section */
+
+#competences p.htmlLogo:hover,
+#competences i.htmlLogo:hover {
+  color: #f06529;
 }
+
+#competences p.cssLogo:hover,
+#competences i.cssLogo:hover {
+  color: #264de4;
+}
+
+#competences p.jsLogo:hover,
+#competences i.jsLogo:hover {
+  color: #f0db4f;
+}
+
+#competences p.sassLogo:hover,
+#competences i.sassLogo:hover {
+  color: #cc6699;
+}
+
+#competences p.reactLogo:hover,
+#competences i.reactLogo:hover {
+  color: #61dbfb;
+}
+
+#competences p.bootstrapLogo:hover,
+#competences i.bootstrapLogo:hover {
+  color: #563d7c;
+}
+
+#competences p.nodeLogo:hover,
+#competences i.nodeLogo:hover {
+  color: #3c873a;
+}
+
+#competences p.expressLogo:hover,
+#competences i.expressLogo:hover {
+  color: #424242;
+}
+
+#competences p.gitLogo:hover,
+#competences i.gitLogo:hover {
+  color: #f34f29;
+}
+
+#competences p.psLogo:hover,
+#competences i.psLogo:hover {
+  color: #3c327b;
+}
+
+#competences p.aiLogo:hover,
+#competences i.aiLogo:hover {
+  color: #fbbb4d;
+}
+
+#competences p.tsLogo:hover,
+#competences i.tsLogo:hover {
+  color: #007acc;
+}
+
+/* --- */
 
 footer {
   border-top: solid #ffc107;
