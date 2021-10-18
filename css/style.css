@@ -66,6 +66,11 @@ section#apropos {
   color: #ffc107;
 }
 
+input,
+textarea {
+  caret-color: #ffc107;
+}
+
 /* :hover effect - competences section */
 
 #competences p.htmlLogo:hover,
