@@ -152,3 +152,7 @@ footer {
 footer span.text-uppercase {
   letter-spacing: 3px;
 }
+
+footer a.btn-warning:hover {
+  background-color: white;
+}
