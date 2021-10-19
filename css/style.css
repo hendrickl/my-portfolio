@@ -13,7 +13,8 @@ h2.page-section-heading {
 }
 
 p {
-  font-family: "Hind:wght@300", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 1px;
 }
 
 p.techno {
