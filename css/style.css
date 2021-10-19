@@ -12,6 +12,15 @@ h2.page-section-heading {
   letter-spacing: 2.5px;
 }
 
+p {
+  font-family: "Hind:wght@300", sans-serif;
+}
+
+p.techno {
+  padding-top: 17px;
+  font-size: 12px;
+}
+
 nav {
   font-size: 16px;
 }
