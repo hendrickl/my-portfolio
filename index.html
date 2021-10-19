@@ -113,7 +113,7 @@
                     <div class="card-body">
                       <h5 class="card-title">Fonts</h5>
                       <p class="card-text">
-                          Fonts est une application React, interactive, qui s'appuie sur l'API Google Fonts.
+                          Fonts est une application React interactive qui s'appuie sur une API.
                       </p>
                       <a href="https://google-fonts-widget-redteam.netlify.app/" class="btn btn-dark" target="_blank">Visiter</a>
                       <p class="techno">
@@ -132,15 +132,17 @@
             <h2 class="page-section-heading mb-5 text-center text-uppercase text-white">A Propos</h2>
             <!-- Apropos Section Content-->
             <div class="row">
-                <div class="col-lg-4 ms-auto"><p class="lead">
+                <div class="col-lg-4 ms-auto">
+                    <p class="lead">
                     Hello ! Bienvenue sur mon portfolio.<br>
                     Je suis Hendrick, Développeur Front-End JavaScript.<br>
-                    Je vous invite à découvrir mon parcours à travers mon CV et ma lettre de motivation.
-                </p></div>
-                <div class="col-lg-4 me-auto"><p class="lead">
-                    Je vous propose de mettre mes compétences au service d'une équipe technique, pour le développement
-                    et la réussite de futurs projets qu'on aura à coeur de relever ensemble.
-                </p></div>
+                    Je vous invite à découvrir mon parcours à travers mon CV et ma lettre de motivation.</p>
+                </div>
+                <div class="col-lg-4 me-auto">
+                    <p class="lead">
+                    Je vous propose de mettre mes compétences au service de votre équipe technique, pour le développement
+                    et la réussite de futurs projets que j'aurai à coeur de relever avec vous.</p>
+                </div>
             </div>
             <!-- Apropos Section Button-->
             <div class="text-center mt-4">
@@ -230,7 +232,7 @@
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
-                    <form method="POST" action="contact.php">
+                    <form method="POST" action="">
                         <div class="mb-3">
                             <label for="inputName"></label>
                             <input class="form-control" id="inputName" type="text" placeholder="Nom" name="inputName" />
@@ -245,7 +247,21 @@
                         </div>
                         <br />
                         <div class="d-grid col-6 mx-auto">
-                            <button class="btn btn-outline-light btn-xl" type="submit">Envoyer</button>
+                            <button class="btn btn-outline-light btn-xl" type="submit" data-bs-toggle="modal" data-bs-target="#formModal">Envoyer</button>
+                        </div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="formModal" tabindex="-1" aria-labelledby="formModalLabel" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body">
+                                        <p id="formModalLabel">Votre message est envoyé !</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-warning" data-bs-dismiss="modal">Retour</button>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </form>
                 </div>
