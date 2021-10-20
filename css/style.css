@@ -67,7 +67,7 @@ div.card-img-top {
 }
 
 section#apropos {
-  border-top: solid #ffc107;
+  border-top: 4px solid #ffc107;
 }
 
 #apropos i:hover,
@@ -146,7 +146,7 @@ textarea {
 /* --- */
 
 footer {
-  border-top: solid #ffc107;
+  border-top: 4px solid #ffc107;
 }
 
 footer span.text-uppercase {

@@ -60,7 +60,7 @@
                 <!-- Realisations Card 1-->
                 <div class="card col-md-6 col-lg-3 text-center" style="width: 16rem;">
                     <div class="card-img-top">
-                        <img src="./img/card-format-150x150-pokedex.jpg" class="img-fluid card-img-top rounded-circle" alt="photo de présentation de l'application pokemon">
+                        <img src="./img/card-format-150x150-pokedex.jpg" class="img-fluid card-img-top rounded-circle" alt="photo de présentation de l'application pokedex">
                     </div>
                     <div class="card-body">
                       <h5 class="card-title">Pokedex</h5>
@@ -232,14 +232,14 @@
             <!-- Contact Section Form-->
             <div class="row justify-content-center">
                 <div class="col-lg-8 col-xl-7">
-                    <form method="POST" action="">
+                    <form name="contact" action="POST" data-netlify="true">
                         <div class="mb-3">
                             <label for="inputName"></label>
-                            <input class="form-control" id="inputName" type="text" placeholder="Nom" name="inputName" />
+                            <input class="form-control" id="inputName" type="text" placeholder="Nom" name="inputName" required/>
                         </div>
                         <div class="mb-3">
                             <label for="inputEmail"></label>
-                            <input class="form-control" id="inputEmail" type="email" placeholder="Email" name="inputEmail" />
+                            <input class="form-control" id="inputEmail" type="email" placeholder="Email" name="inputEmail" required/>
                         </div>
                         <div class="mb-3">
                             <label for="inputMessage"></label>
