@@ -37,7 +37,7 @@ header h1 {
 
 header h2 {
   font-family: "Libre Franklin", sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 0;
 }
 
@@ -64,10 +64,6 @@ div.photoHeader {
 
 div.card-img-top {
   padding: 25px;
-}
-
-section#apropos {
-  border-top: 4px solid #ffc107;
 }
 
 #apropos i:hover,
@@ -145,8 +141,9 @@ textarea {
 
 /* --- */
 
-footer {
-  border-top: 4px solid #ffc107;
+footer,
+section#apropos {
+  border-top: 5px solid #ffc107;
 }
 
 footer span.text-uppercase {
