@@ -50,7 +50,6 @@ div.photoHeader {
 }
 
 /* Card and card effect*/
-
 .card {
   margin: 10px 10px;
   border-radius: 50px;
@@ -127,6 +126,20 @@ textarea {
 }
 
 /* :hover effect - competences section */
+#competences p.googleLogo:hover,
+#competences i.googleLogo:hover {
+  color: #4C8BF5;
+}
+
+#competences p.gitlabLogo:hover,
+#competences i.gitlabLogo:hover {
+  color: #fca326;
+}
+
+#competences p.angularLogo:hover,
+#competences i.angularLogo:hover {
+  color: #dd1b16;
+}
 
 #competences p.htmlLogo:hover,
 #competences i.htmlLogo:hover {
